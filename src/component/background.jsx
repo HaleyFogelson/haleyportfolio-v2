@@ -16,11 +16,10 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				<div className="top-container flex">
 					<h1>
-						Hello, I&apos;m Frank Izquierdo.
+						Hello, I&apos;m Haley Fogelson.
 						<br />
-						I&apos;m a Full Stack Web Developer.
+						I&apos;m a a second year Computer Engineering and Computer Science Student at Northeastern.
 					</h1>
-					{/* offset can be cahnged in node modules wowjs default file */}
 					<button
 						className={"work-button " + this.props.bounceIn}
 						data-wow-offset="0"
@@ -30,6 +29,21 @@ export default class Background extends React.Component {
 							);
 							window.scrollTo({
 								top: node.offsetTop,
+								behavior: "smooth"
+							});
+						}}>
+						About me
+					</button>
+					{/* offset can be changed in node modules wowjs default file */}
+					<button
+						className={"work-button " + this.props.bounceIn}
+						data-wow-offset="0"
+						onClick={() => {
+							let node = document.getElementById(
+								this.props.aboutRef.current.props.id
+							);
+							window.scrollTo({
+								top: 2200,
 								behavior: "smooth"
 							});
 						}}>

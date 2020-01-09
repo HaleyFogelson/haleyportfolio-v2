@@ -1,9 +1,9 @@
 import React from "react";
-import Background from "./background.jsx";
-import About from "./about.jsx";
+import Background from "./Background.jsx";
+import About from "./About.jsx";
 //import Test from "./test.jsx";
-import Projects from "./projects.jsx";
-import Contact from "./contact.jsx";
+import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
 
 import WOW from "wowjs";
 

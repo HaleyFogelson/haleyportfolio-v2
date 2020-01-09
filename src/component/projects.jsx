@@ -1,6 +1,6 @@
 import React from "react";
 import Vmarine from "../img/Vmarine.jpg";
-import aguaDeLuz from "../img/aguaDeLuz.png";
+import aguaDeLuz from "../img/agueDeLuz.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
 
@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>VMarine</h2>
+										<h2>Smarty Pill</h2>
 									</div>
 									<div>
 										<button
@@ -53,7 +53,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>Aguas De Luz</h2>
+										<h2>A+tandance</h2>
 									</div>
 									<div>
 										<button
@@ -82,7 +82,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>To Do List</h2>
+										<h2>Smart Trash</h2>
 									</div>
 									<div>
 										<button
@@ -112,25 +112,24 @@ export default class Projects extends React.Component {
 				<div id="gallery-card">
 					<div id="vmarine" className="modal-card">
 						<div className="visual">
-							<img src={Vmarine} alt=""/>
+							<img crop="scale" height="100" src={Vmarine} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Vmarine</h2>
+							<h2>Smarty Pill</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype marine web-application to
-										provide information about progress of
-										services and prices.
+										Worked on a team in Generate to create a smart pill depensing device and
+										user interface for people to manage precriptions for our client who has gone
+										on to work on patenting the device
 									</li>
 									<li>
-										Designed with HTML5, CSS3, Bootstrap,
-										Webpack, Wordpress, and ReactJS.
+										Device created using rasberry pi, website built using React and JavaScript
+										backend built using Heroku and flask
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<h4>Comming Soon!</h4>
 								<p
 									className="close-icon"
 									style={{
@@ -160,16 +159,15 @@ export default class Projects extends React.Component {
 							<img src={aguaDeLuz} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Agua De Luz</h2>
+							<h2>A+tandance</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype website to promote health
-										natural-made products to increase brand
-										and online presence.
+										Pocket sized bluetooth RFID scanner with an App that uses the non-encrpyed part
+										of any card with a strip and maps it to a user to take attendance
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
+										Developed with ReactNative, CSS, Bootstrap,
 										Webpack, Parallax Effect,
 										SmoothScrolling(UI), and VanillaJS.
 									</li>
