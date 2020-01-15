@@ -1,5 +1,5 @@
 import React from "react";
-import Vmarine from "../img/Vmarine.jpg";
+import Vmarine from "../img/SmartyPill.jpg";
 import aguaDeLuz from "../img/agueDeLuz.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
@@ -208,15 +208,14 @@ export default class Projects extends React.Component {
 							<img src={todo} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>To-Do List</h2>
+							<h2>Smart Trash</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										A to-do list to keep track of goals.
+										A self-sorting trash and recycling can
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, and ReactJS.
+										Developed with 
 									</li>
 								</ul>
 							</div>

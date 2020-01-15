@@ -1,9 +1,10 @@
 import React from "react";
 import Background from "./Background.jsx";
 import About from "./About.jsx";
-//import Test from "./test.jsx";
+//import Test from "./Test.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
+import Resume from "./Resume";
 
 import WOW from "wowjs";
 
@@ -13,7 +14,7 @@ class Navbar extends React.Component {
 		this.about = React.createRef();
 		this.projects = React.createRef();
 		this.contact = React.createRef();
-
+		this.resume = React.createRef();
 		this.scrolling = this.scrolling.bind(this);
 	}
 
@@ -66,7 +67,7 @@ class Navbar extends React.Component {
 									behavior: "smooth"
 								});
 							}}>
-							Back to Space
+							Haley Fogelson e-portfolio
 						</a>
 						<button
 							className="navbar-toggler"
@@ -102,6 +103,13 @@ class Navbar extends React.Component {
 									}}
 									className="btn-style nav-item nav-link">
 									Contact
+								</a>
+								<a
+									onClick={() => {
+										this.scrolling(this.resume);
+									}}
+									className="btn-style nav-item nav-link">
+									Resume
 								</a>
 							</div>
 						</div>

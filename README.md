@@ -2,7 +2,7 @@
 
   
 
-Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/) built in React.
+Personal portfolio page [www..com](https://www.google.com/) built in React.
 
   
 
@@ -10,7 +10,7 @@ Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/) built in React
 
 1. Installed [New React App](https://reactjs.org/docs/create-a-new-react-app.html) using Node JS.
 
-2. Migrated my [VanillaJS Portfolio Version](https://github.com/kodi24fever/vanillajs-portfolio) and migrated it into a new React Application.
+2. Migrated  it into a new React Application.
 
 3. The first approach was to use libraries to create animations because creating my own was time consuming. For that reason, I decided to use [Wow.js](https://wowjs.uk/) and [Animate.css](https://daneden.github.io/animate.css/) libraries.
 
