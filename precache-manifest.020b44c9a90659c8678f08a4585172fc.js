@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f9484339cecd5e932cff306cda2da22",
+    "revision": "90b0a0958d031b3d6b6ecf271ca2a187",
     "url": "/haleyportfolio-v2/index.html"
   },
   {
-    "revision": "6d79cce795ce6e06ca7c",
+    "revision": "46b65ce1c8bb44123a72",
     "url": "/haleyportfolio-v2/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "d5195832a96daa3fd639",
+    "revision": "f0b516661c5b4d1fffeb",
     "url": "/haleyportfolio-v2/static/css/main.ec60dad2.chunk.css"
   },
   {
-    "revision": "6d79cce795ce6e06ca7c",
-    "url": "/haleyportfolio-v2/static/js/2.d5a46b4c.chunk.js"
+    "revision": "46b65ce1c8bb44123a72",
+    "url": "/haleyportfolio-v2/static/js/2.4b8541d3.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/haleyportfolio-v2/static/js/2.d5a46b4c.chunk.js.LICENSE"
+    "url": "/haleyportfolio-v2/static/js/2.4b8541d3.chunk.js.LICENSE"
   },
   {
-    "revision": "d5195832a96daa3fd639",
-    "url": "/haleyportfolio-v2/static/js/main.5891cf8d.chunk.js"
+    "revision": "f0b516661c5b4d1fffeb",
+    "url": "/haleyportfolio-v2/static/js/main.4f6553e3.chunk.js"
   },
   {
     "revision": "d5ec7d5a02dbb8afbfa3",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0e647d39f4a4acf9a1c18550627b5a1c",
     "url": "/haleyportfolio-v2/static/media/agueDeLuz.0e647d39.png"
+  },
+  {
+    "revision": "31ddc48ec09b146f01bcc3e0cfa3d054",
+    "url": "/haleyportfolio-v2/static/media/logo.31ddc48e.png"
   },
   {
     "revision": "594d1b2bb24bd440c6c961ad65353882",
