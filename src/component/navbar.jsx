@@ -5,6 +5,7 @@ import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Resume from "./Resume";
+import logo from "../img/logo.png"
 
 import WOW from "wowjs";
 
@@ -67,7 +68,7 @@ class Navbar extends React.Component {
 									behavior: "smooth"
 								});
 							}}>
-							Haley Fogelson e-portfolio
+							<img src={logo}/>
 						</a>
 						<button
 							className="navbar-toggler"

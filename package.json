@@ -28,7 +28,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "http://HaleyFogelson.github.io/haleyportfolio-v2",
+  "homepage": "http://HaleyFogelson.com",
   "browserslist": {
     "production": [
       ">0.2%",
