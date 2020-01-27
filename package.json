@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaleyFogelson/Portfolio-v1.git"
+    "url": "git+https://github.com/HaleyFogelson/Portfolio-v2.git"
   },
   "eslintConfig": {
     "extends": "react-app"
