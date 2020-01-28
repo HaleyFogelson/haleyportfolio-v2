@@ -76,7 +76,7 @@ export default class About extends React.Component {
 							this.props.tada
 						}>
 						<h3 id="about" className={this.props.bounceLeft}>
-						Skills
+						Skills Progress
 						</h3>
 						<div className="progress mb-3">
 							<div

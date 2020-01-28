@@ -16,10 +16,10 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				<div className="top-container flex">
 					<h1>
-						Hello, I&apos;m Haley Fogelson.
+						I&apos;m Haley Fogelson.
 						<br />
-						I&apos;m a a second year Computer Engineering and Computer Science Student at Northeastern.
 					</h1>
+					<h4> I&apos;m a a second year Computer Engineering and Computer Science Student at Northeastern. </h4>
 					<button
 						className={"work-button " + this.props.bounceIn}
 						data-wow-offset="0"
@@ -43,11 +43,25 @@ export default class Background extends React.Component {
 								this.props.aboutRef.current.props.id
 							);
 							window.scrollTo({
-								top: 2200,
+								top: 2000,
 								behavior: "smooth"
 							});
 						}}>
 						View my work
+					</button>
+					<button
+						className={"work-button " + this.props.bounceIn}
+						data-wow-offset="0"
+						onClick={() => {
+							let node = document.getElementById(
+								this.props.aboutRef.current.props.id
+							);
+							window.scrollTo({
+								top: 2500,
+								behavior: "smooth"
+							});
+						}}>
+						Resume
 					</button>
 				</div>
 			</div>

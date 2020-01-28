@@ -1,8 +1,13 @@
 import React from "react";
 import Vmarine from "../img/SmartyPill.jpg";
+import SmartTrash from "../img/smarttrash.jpg"
 import aguaDeLuz from "../img/agueDeLuz.png";
+import Spotr from '../img/IMG_0441.jpg'
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
+import Carousel from 'react-images';
+
+const images=[{source:'../img/SmartyPill.jpg', }]
 
 export default class Projects extends React.Component {
 
@@ -25,21 +30,115 @@ export default class Projects extends React.Component {
 								<div className="overlay">
 									<div className="text">
 										<h2>Smarty Pill</h2>
+										<h6> September-December 2019 </h6>
 									</div>
 									<div>
 										<button
-											id="vmarine-button"
+											id="smartypill-button"
 											className="project-button"
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
 												);
 												var marineModal = document.getElementById(
-													"vmarine"
+													"smartypill"
 												);
 												modalBG.style.display = "block";
 												marineModal.style.display =
+													"block"; 
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+							<div
+								className={
+									"aguabg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+
+								<div className="overlay">
+									<div className="text">
+										<h2>A+tandance</h2>
+										<h6> January-April 2019 </h6>
+									</div>
+									<div>
+										<button
+											id="attendance-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var aguaModal = document.getElementById(
+													"attendance"
+												);
+												modalBG.style.display = "block";
+												aguaModal.style.display =
 													"block";
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+							<div
+								className={
+									"todobg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Smart Trash</h2>
+									</div>
+									<div>
+										<button
+											id="todo-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var todoModal = document.getElementById(
+													"todolist"
+												);
+												modalBG.style.display = "block";
+												todoModal.style.display =
+													"block";
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/*This is the second row */}
+						{/*<div className="row my-6">
+							<div
+								className={
+									"testbg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Spotr</h2>
+										<h6> December 2019 </h6>
+									</div>
+									<div>
+										<button
+											id="spotr-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var spotrModal = document.getElementById(
+													"spotr"
+												);
+												modalBG.style.display = "block";
+												spotrModal.style.display =
+													"block"; 
 											}}>
 											Learn More
 										</button>
@@ -54,6 +153,7 @@ export default class Projects extends React.Component {
 								<div className="overlay">
 									<div className="text">
 										<h2>A+tandance</h2>
+										<h6> January-April 2019 </h6>
 									</div>
 									<div>
 										<button
@@ -104,13 +204,13 @@ export default class Projects extends React.Component {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div>*/}
 					</div>
 				</div>
 
 				{/*hidden modals*/}
 				<div id="gallery-card">
-					<div id="vmarine" className="modal-card">
+					<div id="smartypill" className="modal-card">
 						<div className="visual">
 							<img crop="scale" height="100" src={Vmarine} alt=""/>
 						</div>
@@ -143,7 +243,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var marineModal = document.getElementById(
-											"vmarine"
+											"smartypill"
 										);
 										modalBG.style.display = "none";
 										marineModal.style.display = "none";
@@ -154,9 +254,9 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="agualuz" className="modal-card">
+					<div id="attendance" className="modal-card">
 						<div className="visual">
-							<img src={aguaDeLuz} alt=""/>
+							<img height="100" src={aguaDeLuz} alt=""/>
 						</div>
 						<div className="modal-info">
 							<h2>A+tandance</h2>
@@ -174,11 +274,11 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a
+								{/*<a
 									href="./AguaDeLuz/index.html"
 									target="_blank">
 									<h3>View live demo</h3>
-								</a>
+								</a>*/}
 								<p
 									className="close-icon"
 									style={{
@@ -192,7 +292,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var aguaModal = document.getElementById(
-											"agualuz"
+											"attendance"
 										);
 										modalBG.style.display = "none";
 										aguaModal.style.display = "none";
@@ -205,30 +305,32 @@ export default class Projects extends React.Component {
 
 					<div id="todolist" className="modal-card">
 						<div className="visual">
-							<img src={todo} alt=""/>
+							<img  src={SmartTrash} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Smart Trash</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
 										A self-sorting trash and recycling can
 									</li>
 									<li>
-										Developed with 
+									Worked on a team to create a trash can that used TensorFlow for machine learning to determine if an item is trash or recycling which then had the raspberry pi control a servo motor to place the item in the corresponding bin 
 									</li>
+									{/*<li>
+										Developed with TensorFlow, python, c++ 
+									</li>*/}
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="./todoList/index.html" target="_blank">
-									<h3>View live demo</h3>
+								<a href="https://github.com/HaleyFogelson/Smart-Trash-can" target="_blank">
+									<h5>Github code</h5>
 								</a>
 								<p
 									className="close-icon"
 									style={{
 										textAlign: "right",
-										fontWeight: 900,
-										fontSize: 2 + "rem",
+										fontWeight: 800,
+										fontSize: 1 + "rem",
 										cursor: "pointer"
 									}}
 									onClick={() => {
