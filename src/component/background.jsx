@@ -19,7 +19,7 @@ export default class Background extends React.Component {
 						I&apos;m Haley Fogelson.
 						<br />
 					</h1>
-					<h4> I&apos;m a a second year Computer Engineering and Computer Science Student at Northeastern. </h4>
+					<h4> I&apos;m a second year Computer Engineering and Computer Science Student at Northeastern University </h4>
 					<button
 						className={"work-button " + this.props.bounceIn}
 						data-wow-offset="0"
