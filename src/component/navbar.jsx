@@ -93,7 +93,11 @@ class Navbar extends React.Component {
 								</a>
 								<a
 									onClick={() => {
-										this.scrolling(this.projects);
+										window.scrollTo({
+											top: 2000,
+											behavior: "smooth"
+										});
+										// this.scrolling(this.projects);
 									}}
 									className="btn-style nav-item nav-link">
 									Projects

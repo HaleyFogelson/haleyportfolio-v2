@@ -62,11 +62,13 @@ export default class About extends React.Component {
 							I am currently a second-year Computer Engineering and Computer Science major at 
 							Northeastern University. I enjoy coding and have a passion for robotics and programming. 
 							I can often be found working on an array of technical projects. I have created 
-							 websites, apps, prototypes for startup ideas, databases, robots, boats, and more. At Northestern I am involved with the entrepreneurial 
-							Organization where I work in Generate (a product development club) as a build studio engineer where I build 
-							products and prototypes for a client who comes to us with an idea. I have worked on teams to encorporporate hardware
-							and software to turn ideas into products. I love being able to use creativity and innovation to transforming ideas into something that 
-							actually exists. 
+							 websites, apps, and prototypes for startup ideas, databases, robots, boats, and more. 
+							 I love being able to use creativity and innovation to transforming ideas into physical products. 
+							 The more I learn about the field through my projects I have come to realize how I can use creativity and
+							 innovation to better my community. The idea of being able to help those around me while following my passions is
+							 what drives me to study Computer Engineering and Computer Science. 
+
+							At Northeastern I am a part of an array of organizations and clubs and enjoy being actively involved in the community .  
 							Outside of coding, I enjoy traveling, running, playing instruments, and hammocking	
 						</p>
 					</div>
@@ -206,6 +208,26 @@ export default class About extends React.Component {
 								aria-valuemin="0"
 								aria-valuemax="100">
 								SQL Databases
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 30 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								SWIFT
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 50 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="50">
+								Matlab
 							</div>
 						</div>
 					</div>

@@ -2,6 +2,7 @@ import React from "react";
 import Vmarine from "../img/SmartyPill.jpg";
 import SmartyPill from "../img/SmartyPill.jpg";
 import SmartTrash from "../img/smarttrash.jpg";
+import roboArdunio from "../img/roboArdunio.png"
 import roboArm from '../img/roboarm.mov'
 import roboArm2 from '../img/roboarmpic.png';
 import aguaDeLuz from "../img/agueDeLuz.png";
@@ -9,6 +10,7 @@ import Spotr from '../img/IMG_0441.jpg'
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
 import Carousel from 'react-images';
+import github from "../img/github.png";
 
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -35,7 +37,6 @@ import clsx from 'clsx';
 const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 345,
-
   },
   media: {
     height: 0,
@@ -319,7 +320,7 @@ export default function Projects() {
 				      <CardHeader
 				        action={
 				          <IconButton aria-label="settings">
-				            <MoreVertIcon />
+				            
 				          </IconButton>
 				        }
 				        title="Smarty Pill"
@@ -363,7 +364,7 @@ export default function Projects() {
 				      <CardHeader
 				        action={
 				          <IconButton aria-label="settings">
-				            <MoreVertIcon />
+				            
 				          </IconButton>
 				        }
 				        title="A+tendance"
@@ -377,6 +378,10 @@ export default function Projects() {
 				      <CardContent>
 				        <Typography variant="body2" color="textSecondary" component="p">
 				          Worked on a Generate team to create an RFID scanner that connects to the mobile app for taking attendance
+				        </Typography>
+				        <br/>
+				        <Typography variant="body2" color="textSecondary" component="p">
+				          Software used: React Native, Node js, Firebase, Python
 				        </Typography>
 				      </CardContent>
 				      <CardActions disableSpacing>
@@ -406,7 +411,7 @@ export default function Projects() {
 				      <CardHeader
 				        action={
 				          <IconButton aria-label="settings">
-				            <MoreVertIcon />
+				            
 				          </IconButton>
 				        }
 				        title="Smart Trash"
@@ -423,6 +428,9 @@ export default function Projects() {
 				        </Typography>
 				      </CardContent>
 				      <CardActions disableSpacing>
+				      <Button size="small" color="secondary" href="https://github.com/HaleyFogelson/Smart-Trash-can">
+					         View Code
+					      </Button>
 				        <IconButton
 				          className={clsx(classes.expand3, {
 				            [classes.expandOpen3]: expanded3,
@@ -433,6 +441,7 @@ export default function Projects() {
 				        >
 				          Learn more <ExpandMoreIcon />
 				        </IconButton>
+				        
 				      </CardActions>
 				      <Collapse in={expanded3} timeout="auto" unmountOnExit>
 				        <CardContent>
@@ -509,7 +518,7 @@ export default function Projects() {
 				      <CardHeader
 				        action={
 				          <IconButton aria-label="settings">
-				            <MoreVertIcon />
+				            
 				          </IconButton>
 				        }
 				        title="Spotr"
@@ -552,7 +561,7 @@ export default function Projects() {
 				      <CardHeader
 				        action={
 				          <IconButton aria-label="settings">
-				            <MoreVertIcon />
+				           
 				          </IconButton>
 				        }
 				        title="Robotic Arm"
@@ -586,6 +595,58 @@ export default function Projects() {
 				          <Typography>
 				            <li> Created C++ code to determine what actions on the wiimote correspond to the robotic arm movement</li>
 				            <li> Created a circuit using logic gates on Matlab </li>
+				            
+				          </Typography>
+				        </CardContent>
+				      </Collapse>
+				    </Card>
+
+
+				    <Card className={classes.card}>
+				      <CardHeader
+				        action={
+				          <IconButton aria-label="settings">
+				            
+				          </IconButton>
+				        }
+				        title="Autonomous Robot"
+				        subheader="September 2018"
+				      />
+				    <CardMedia
+				        className={classes.media}
+				        image={roboArdunio}
+				        title="Autonomous Robot"
+				      />
+				      <CardContent>
+				        <Typography variant="body2" color="textSecondary" component="p">
+				          I have created a bunch of random mini robots using arduino. This robot used IR sensors in order to sense the edge of the table and keep itself on the table.
+				        </Typography>
+				      </CardContent>
+				      <CardActions disableSpacing>
+				      <Button size="small" color="primary" href="https://github.com/HaleyFogelson/Arduino-Projects/tree/master/Don_t_fall_off_table">
+					         Source Code
+					      </Button>
+				        <IconButton
+				          className={clsx(classes.expand6, {
+				            [classes.expandOpen6]: expanded6,
+				          })}
+				          onClick={handleExpandClick6}
+				          aria-expanded={expanded6}
+				          aria-label="show more"
+				        >
+				          Learn more <ExpandMoreIcon />
+				        </IconButton>
+				        
+				      </CardActions>
+				      <Collapse in={expanded6} timeout="auto" unmountOnExit>
+				        <CardContent>
+				          <Typography paragraph>Other Ardunio Projects:</Typography>
+				          <Typography>
+				            <li> Robot going straight using encoders 
+				            <Button size="small" color="primary" href="https://github.com/HaleyFogelson/Arduino-Projects/blob/master/Incoder_Robot/Incoder_Robot.ino">
+					         Source Code
+					      </Button>
+				            </li>
 				            
 				          </Typography>
 				        </CardContent>
