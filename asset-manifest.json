@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.e82a38c1.chunk.css",
-    "main.js": "/static/js/main.b67596b1.chunk.js",
-    "main.js.map": "/static/js/main.b67596b1.chunk.js.map",
+    "main.js": "/static/js/main.dbac1af0.chunk.js",
+    "main.js.map": "/static/js/main.dbac1af0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ad82c2c.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ad82c2c.js.map",
     "static/css/2.64a99b10.chunk.css": "/static/css/2.64a99b10.chunk.css",
-    "static/js/2.23f1d0e4.chunk.js": "/static/js/2.23f1d0e4.chunk.js",
-    "static/js/2.23f1d0e4.chunk.js.map": "/static/js/2.23f1d0e4.chunk.js.map",
+    "static/js/2.c9dfb978.chunk.js": "/static/js/2.c9dfb978.chunk.js",
+    "static/js/2.c9dfb978.chunk.js.map": "/static/js/2.c9dfb978.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.006824641d17a61ebeb1009257a1885f.js": "/precache-manifest.006824641d17a61ebeb1009257a1885f.js",
+    "precache-manifest.0d5642b5c2683db7ebed740e707533ab.js": "/precache-manifest.0d5642b5c2683db7ebed740e707533ab.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/static/css/2.64a99b10.chunk.css.map",
     "static/css/main.e82a38c1.chunk.css.map": "/static/css/main.e82a38c1.chunk.css.map",
-    "static/js/2.23f1d0e4.chunk.js.LICENSE": "/static/js/2.23f1d0e4.chunk.js.LICENSE",
+    "static/js/2.c9dfb978.chunk.js.LICENSE": "/static/js/2.c9dfb978.chunk.js.LICENSE",
     "static/media/IMG_0441.jpg": "/static/media/IMG_0441.86ee0b91.jpg",
     "static/media/SmartyPill.jpg": "/static/media/SmartyPill.44ae60fa.jpg",
     "static/media/index.scss": "/static/media/todolist.3abab01c.png",
     "static/media/logo.png": "/static/media/logo.365d9379.png",
     "static/media/myImage.png": "/static/media/myImage.50831a2d.png",
+    "static/media/roboArdunio.png": "/static/media/roboArdunio.52f9c47d.png",
     "static/media/roboarm.mov": "/static/media/roboarm.e18973ae.mov",
     "static/media/roboarmpic.png": "/static/media/roboarmpic.2c076d84.png",
     "static/media/smarttrash.jpg": "/static/media/smarttrash.fcf75ab6.jpg"
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.5ad82c2c.js",
     "static/css/2.64a99b10.chunk.css",
-    "static/js/2.23f1d0e4.chunk.js",
+    "static/js/2.c9dfb978.chunk.js",
     "static/css/main.e82a38c1.chunk.css",
-    "static/js/main.b67596b1.chunk.js"
+    "static/js/main.dbac1af0.chunk.js"
   ]
 }
