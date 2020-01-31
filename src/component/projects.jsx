@@ -377,12 +377,10 @@ export default function Projects() {
 				      />
 				      <CardContent>
 				        <Typography variant="body2" color="textSecondary" component="p">
-				          Worked on a Generate team to create an RFID scanner that connects to the mobile app for taking attendance
+				         RFID scanner that connects to the mobile app for taking attendance through bluetooth
 				        </Typography>
 				        <br/>
-				        <Typography variant="body2" color="textSecondary" component="p">
-				          Software used: React Native, Node js, Firebase, Python
-				        </Typography>
+				        
 				      </CardContent>
 				      <CardActions disableSpacing>
 				        <IconButton
@@ -403,6 +401,9 @@ export default function Projects() {
 				            <li> Worked on a Generate team to create an RFID scanner that connects to the mobile app for taking attendance</li>
 				            <li> Completed a significant portion of the project by learning from my teammates and teaching myself  ReactNative, Heroku, and Node to make the phone app for the project despite being the only first-year student accepted onto a generate team </li>
 				          </Typography>
+				          <Typography variant="body2" color="textSecondary" component="p">
+				          Software used: React Native, Node js, Firebase, Python
+				        </Typography>
 				        </CardContent>
 				      </Collapse>
 				    </Card>
@@ -424,7 +425,7 @@ export default function Projects() {
 				      />
 				      <CardContent>
 				        <Typography variant="body2" color="textSecondary" component="p">
-				          Worked with a team to create a trash can that used TensorFlow for machine learning to determine if an item is trash or recycling which then had the Raspberry Pi control a servo motor to place the item in the corresponding bin 
+				          Self-sorting trash and recycling bin using machine learning
 				        </Typography>
 				      </CardContent>
 				      <CardActions disableSpacing>
@@ -512,7 +513,8 @@ export default function Projects() {
 					      </CardActions>
 					    </Card>*/}
 					    </div>
-					    <div style={{display:'flex'}}>
+					    <br/>
+					  <div style={{display:'flex'}}>
 
 					<Card className={classes.card}>
 				      <CardHeader
@@ -531,7 +533,7 @@ export default function Projects() {
 				      />
 				      <CardContent>
 				        <Typography variant="body2" color="textSecondary" component="p">
-				          Created an app during a hackathon that tracks the side of crowds at places around campus
+				         App that tracks the size of crowds at places around campus
 				        </Typography>
 				      </CardContent>
 				      <CardActions disableSpacing>
@@ -574,7 +576,7 @@ export default function Projects() {
 				      >  </CardMedia>
 				      <CardContent>
 				        <Typography variant="body2" color="textSecondary" component="p">
-				          Programmed a robotic arm to be controlled by a wii remote for my Embedded Design class
+				          Robotic arm to be controlled by a Wii remote 
 				        </Typography>
 				      </CardContent>
 				      <CardActions disableSpacing>
@@ -593,6 +595,7 @@ export default function Projects() {
 				        <CardContent>
 				          <Typography paragraph>About:</Typography>
 				          <Typography>
+				          	<li> Programmed a robotic arm to be controlled by a wii remote for my Embedded Design class </li>
 				            <li> Created C++ code to determine what actions on the wiimote correspond to the robotic arm movement</li>
 				            <li> Created a circuit using logic gates on Matlab </li>
 				            
@@ -619,13 +622,13 @@ export default function Projects() {
 				      />
 				      <CardContent>
 				        <Typography variant="body2" color="textSecondary" component="p">
-				          I have created a bunch of random mini robots using arduino. This robot used IR sensors in order to sense the edge of the table and keep itself on the table.
+				          Collection of random robotic projects using ardunio
 				        </Typography>
 				      </CardContent>
 				      <CardActions disableSpacing>
-				      <Button size="small" color="primary" href="https://github.com/HaleyFogelson/Arduino-Projects/tree/master/Don_t_fall_off_table">
-					         Source Code
-					      </Button>
+				      <Button size="small" color="secondary" href="https://github.com/HaleyFogelson/Arduino-Projects/tree/master/Don_t_fall_off_table">
+					         View Code
+					     </Button>
 				        <IconButton
 				          className={clsx(classes.expand6, {
 				            [classes.expandOpen6]: expanded6,
@@ -640,8 +643,18 @@ export default function Projects() {
 				      </CardActions>
 				      <Collapse in={expanded6} timeout="auto" unmountOnExit>
 				        <CardContent>
+				        <Typography>
+				          	I have created a bunch of random mini robots using arduino. This robot used IR sensors in order to sense the edge of the table and keep itself on the table. 
+				          </Typography>
 				          <Typography paragraph>Other Ardunio Projects:</Typography>
 				          <Typography>
+				          Sonar Robot
+				          	<li> Robot that uses a ping-sensor ontop of a servo to create a radar that drew the directions it go on a screen and avoided obstacles 
+				            <Button size="small" color="primary" href="https://github.com/HaleyFogelson/Arduino-Projects/blob/master/robot_with_ping_and_servo/robot_with_ping_and_servo.ino">
+					         Source Code
+					      </Button>
+				            </li>
+				 			Encoder Robot
 				            <li> Robot going straight using encoders 
 				            <Button size="small" color="primary" href="https://github.com/HaleyFogelson/Arduino-Projects/blob/master/Incoder_Robot/Incoder_Robot.ino">
 					         Source Code

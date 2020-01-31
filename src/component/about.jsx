@@ -62,14 +62,14 @@ export default class About extends React.Component {
 							I am currently a second-year Computer Engineering and Computer Science major at 
 							Northeastern University. I enjoy coding and have a passion for robotics and programming. 
 							I can often be found working on an array of technical projects. I have created 
-							 websites, apps, and prototypes for startup ideas, databases, robots, boats, and more. 
-							 I love being able to use creativity and innovation to transforming ideas into physical products. 
+							 websites, apps, prototypes for startup ideas, databases, robots, boats, and more. 
+							 I love being able to use creativity and innovation to transform ideas into physical products. 
 							 The more I learn about the field through my projects I have come to realize how I can use creativity and
-							 innovation to better my community. The idea of being able to help those around me while following my passions is
+							 innovation to better my community. Being able to help those around me while following my passions is
 							 what drives me to study Computer Engineering and Computer Science. 
 
-							At Northeastern I am a part of an array of organizations and clubs and enjoy being actively involved in the community .  
-							Outside of coding, I enjoy traveling, running, playing instruments, and hammocking	
+							At Northeastern I am a part of an array of organizations and clubs and enjoy being actively involved on campus.  
+							Outside of coding, I enjoy traveling, running, playing instruments, and hammocking.	
 						</p>
 					</div>
 					<div
