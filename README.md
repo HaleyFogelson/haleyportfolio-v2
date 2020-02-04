@@ -2,7 +2,7 @@
 
   
 
-Personal portfolio page [www..com](https://www.google.com/) built in React.
+Personal portfolio page [www.haleyfogelson.com](https://www.haleyfogelson.com/) built in React.
 
   
 
