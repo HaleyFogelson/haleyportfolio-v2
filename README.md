@@ -12,27 +12,23 @@ Personal portfolio page [www.haleyfogelson.com](https://www.haleyfogelson.com/) 
 
 2. Migrated  it into a new React Application.
 
-3. The first approach was to use libraries to create animations because creating my own was time consuming. For that reason, I decided to use [Wow.js](https://wowjs.uk/) and [Animate.css](https://daneden.github.io/animate.css/) libraries.
+3. Found an example portfolio to build off of and cloned it
 
-4. Used React Props to manage components references in the application and share components details to create [SmoothScroll](https://css-tricks.com/snippets/jquery/smooth-scrolling/) usign my own code.
+4. Turned some of the pages from React components to React Hooks components
 
-5. Most of the page uses Bootstrap, except for the modal gallery that has my own CSS3 flex-box code.
+5. Made the contact form using [formsfree.io](https://formspree.io/) for the backend submission.
 
-6. Created different modals for the gallery project and using [React Event Handlers](https://reactjs.org/docs/handling-events.html) I could show each project modal.
+6. Used Bootstrap and Material UI to make the pages look pretty 
 
-7. The form uses [formsfree.io](https://formspree.io/) for the backend submission.
+7. Created an animated background using [codepen.io](https://codepen.io/saransh/pen/BKJun)
 
-8. I used images from [unsplash](https://unsplash.com) which are free to use and icons from [flaticon](https://www.flaticon.com/) which are also free to use.
+8. Used the gh-pages library to host website on github pages
 
-9. I wanted to create an amazing animated background at the top of the page, so I used some help from [codepen.io](https://codepen.io/saransh/pen/BKJun) and adapted the code to my website.
+9. Bought a domain from google 
 
-## Challenges that took me some time to solve
+10. Configured the domain with github pages by changing the Cname files and configuring the DNS
 
-1. Implementing Wow.js + Animate.css was difficult at the beginning, but worth it. It takes time to make it work with your app, yet it takes less time than building your won libraries.
 
-2. 2.Sharing DOM component details such as height, offsetTops, etc, between other components was a bit difficult because [React Refs](https://reactjs.org/docs/refs-and-the-dom.html) had to match parent containers' ids. That took me the long time to figure out.
-
-3. After using Bootstrap for a while I had to re learn some CSS3 tricks like flex-box and how to use @keyframes + animation.
 
 ## Conclusion
 
