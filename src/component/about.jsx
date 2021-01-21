@@ -59,7 +59,7 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I am currently a second-year Computer Engineering and Computer Science major at 
+							I am currently a third-year Computer Engineering and Computer Science major at 
 							Northeastern University. I enjoy coding and have a passion for robotics and programming. 
 							I can often be found working on an array of technical projects. I have created 
 							 websites, apps, prototypes for startup ideas, databases, robots, boats, and more. 
@@ -94,6 +94,16 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
+								style={{ width: 75 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								GO
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-80-bar"
+								role="progressbar"
 								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
@@ -108,6 +118,16 @@ export default class About extends React.Component {
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Python
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-90-bar"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Creating Websites
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -164,7 +184,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
+								style={{ width: 75 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Git
