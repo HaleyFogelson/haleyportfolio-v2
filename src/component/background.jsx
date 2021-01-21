@@ -16,10 +16,14 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				<div className="top-container flex">
 					<h1>
-						I&apos;m Haley Fogelson.
+						WELCOME TO MY DIGITAL PORTFOLIO
 						<br />
 					</h1>
-					<h4> I&apos;m a second year Computer Engineering and Computer Science Student at Northeastern University </h4>
+					<h2>
+						I&apos;m Haley Fogelson.
+						<br />
+					</h2>
+					<h4> I&apos;m a third year Computer Engineering and Computer Science Student with a minor in Entrepreneurial Startups at Northeastern University </h4>
 					<button
 						className={"work-button " + this.props.bounceIn}
 						data-wow-offset="0"
