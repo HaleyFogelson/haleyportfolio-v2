@@ -3,6 +3,7 @@ import Vmarine from "../img/SmartyPill.jpg";
 import SmartyPill from "../img/SmartyPill.jpg";
 import SmartTrash from "../img/smarttrash.jpg";
 import roboArdunio from "../img/roboArdunio.png"
+import MaskUp from "../img/Maskup.png"
 import roboArm from '../img/roboarm.mov'
 import roboArm2 from '../img/roboarmpic.png';
 import aguaDeLuz from "../img/agueDeLuz.png";
@@ -11,6 +12,8 @@ import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
 import Carousel from 'react-images';
 import github from "../img/github.png";
+import growOrganic from "../img/groworganic.png"
+import GoImageRecognition from "../img/GoImageRecoginition.png"
 
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -85,6 +88,71 @@ const useStyles = makeStyles(theme => ({
   avatar: {
     backgroundColor: red[500],
   },
+    expand5: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen5: {
+    transform: 'rotate(180deg)',
+  },
+  avatar: {
+    backgroundColor: red[500],
+  },
+   expand6: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen6: {
+    transform: 'rotate(180deg)',
+  },
+  avatar: {
+    backgroundColor: red[500],
+  },
+    expand7: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen7: {
+    transform: 'rotate(180deg)',
+  },
+  avatar: {
+    backgroundColor: red[500],
+  },
+    expand8: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen8: {
+    transform: 'rotate(180deg)',
+  },
+  avatar: {
+    backgroundColor: red[500],
+  },
+    expand9: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen9: {
+    transform: 'rotate(180deg)',
+  },
+  avatar: {
+    backgroundColor: red[500],
+  },
 }));
 
 const images=[{source:'../img/SmartyPill.jpg', }]
@@ -98,6 +166,11 @@ export default function Projects() {
  	const [expanded4, setExpanded4] = React.useState(false);
  	const [expanded5, setExpanded5] = React.useState(false);
  	const [expanded6, setExpanded6] = React.useState(false);
+ 	const [expanded7, setExpanded7] = React.useState(false);
+ 	const [expanded8, setExpanded8] = React.useState(false);
+ 	const [expanded9, setExpanded9] = React.useState(false);
+
+
  	const handleExpandClick1 = () => {
     	setExpanded1(!expanded1);
   	};
@@ -116,6 +189,15 @@ export default function Projects() {
   	const handleExpandClick6 = () => {
     	setExpanded6(!expanded6);
   	};
+  	const handleExpandClick7 = () => {
+    	setExpanded7(!expanded7);
+  	};
+  	const handleExpandClick8 = () => {
+    	setExpanded8(!expanded8);
+  	};
+  	const handleExpandClick9 = () => {
+    	setExpanded9(!expanded9);
+  	};
 
 
 		return (
@@ -127,193 +209,160 @@ export default function Projects() {
 							
 							Projects
 						</h1>
-						
-						{/*<div className="row my-5">
-							<div
-								className={
-									"testbg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>Smarty Pill</h2>
-										<h6> September-December 2019 </h6>
-									</div>
-									<div>
-										<button
-											id="smartypill-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var marineModal = document.getElementById(
-													"smartypill"
-												);
-												modalBG.style.display = "block";
-												marineModal.style.display =
-													"block"; 
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
-							<div
-								className={
-									"aguabg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-
-								<div className="overlay">
-									<div className="text">
-										<h2>A+tandance</h2>
-										<h6> January-April 2019 </h6>
-									</div>
-									<div>
-										<button
-											id="attendance-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var aguaModal = document.getElementById(
-													"attendance"
-												);
-												modalBG.style.display = "block";
-												aguaModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
-							<div
-								className={
-									"todobg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>Smart Trash</h2>
-									</div>
-									<div>
-										<button
-											id="todo-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var todoModal = document.getElementById(
-													"todolist"
-												);
-												modalBG.style.display = "block";
-												todoModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>*/}
-
-						{/*This is the second row */}
-						{/*<div className="row my-7">
-							<div
-								className={
-									"testbg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>Spotr</h2>
-										<h6> December 2019 </h6>
-									</div>
-									<div>
-										<button
-											id="spotr-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var spotrModal = document.getElementById(
-													"spotr"
-												);
-												modalBG.style.display = "block";
-												spotrModal.style.display =
-													"block"; 
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
-							<div
-								className={
-									"aguabg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>A+tandance</h2>
-										<h6> January-April 2019 </h6>
-									</div>
-									<div>
-										<button
-											id="agua-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var aguaModal = document.getElementById(
-													"agualuz"
-												);
-												modalBG.style.display = "block";
-												aguaModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
-							<div
-								className={
-									"todobg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>Smart Trash</h2>
-									</div>
-									<div>
-										<button
-											id="todo-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var todoModal = document.getElementById(
-													"todolist"
-												);
-												modalBG.style.display = "block";
-												todoModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>*/}
 					{/* Cards */}
+					<div style={{display:'flex'}}>
+
+					<Card className={classes.card}>
+				      <CardHeader
+				        action={
+				          <IconButton aria-label="settings">
+				            
+				          </IconButton>
+				        }
+				        title="MaskUP"
+				        subheader="December 2020-Present"
+				      />
+				      <CardMedia
+				        className={classes.media}
+				        image={MaskUp}
+				        title="MaskUP"
+				      />
+				      <CardContent>
+				        <Typography variant="body2" color="textSecondary" component="p">
+				          Security System for detecting personal protective equipment
+				        </Typography>
+				      </CardContent>
+				      <CardActions disableSpacing>
+				        <IconButton
+				          className={clsx(classes.expand7, {
+				            [classes.expandOpen7]: expanded7,
+				          })}
+				          onClick={handleExpandClick7}
+				          aria-expanded={expanded7}
+				          aria-label="show more"
+				        >
+				         Learn more <ExpandMoreIcon />
+				        </IconButton>
+				      </CardActions>
+				      <Collapse in={expanded7} timeout="auto" unmountOnExit>
+				        <CardContent>
+				          <Typography paragraph>About:</Typography>
+				          <Typography>
+				            <li> Developed code to build off TensorFlow’s face recognition to determine if an individual is wearing is a Mask</li>
+				            <li> Got project funded by pitching during an Israel Round Table Shark Tank competition and winning 3rd place</li>
+				          </Typography>
+				        </CardContent>
+				      </Collapse>
+				    </Card>
+
+
+
+				    <Card className={classes.card}>
+				      <CardHeader
+				        action={
+				          <IconButton aria-label="settings">
+				            
+				          </IconButton>
+				        }
+				        title="Grow Organic"
+				        subheader="September-December 2020"
+				      />
+				      <CardMedia
+				        className={classes.media}
+				        image={growOrganic }
+				        title="Grow Organic"
+				      />
+				      <CardContent>
+				        <Typography variant="body2" color="textSecondary" component="p">
+				         A growing setup that monitors and takes care of plants
+				        </Typography>
+				        <br/>
+				        
+				      </CardContent>
+				      <CardActions disableSpacing>
+				        <IconButton
+				          className={clsx(classes.expand8, {
+				            [classes.expandOpen8]: expanded8,
+				          })}
+				          onClick={handleExpandClick8}
+				          aria-expanded={expanded8}
+				          aria-label="show more"
+				        >
+				          Learn more <ExpandMoreIcon />
+				        </IconButton>
+				      </CardActions>
+				      <Collapse in={expanded8} timeout="auto" unmountOnExit>
+				        <CardContent>
+				          <Typography paragraph>About:</Typography>
+				          <Typography>
+				            <li> Worked on a Generate team to create a growing system for our client that monitors and cares for plants</li>
+				            <li> Wrote Python and C++ code to control motors and store sensor data in an AWS SQL database</li>
+				            <li> Helped design the circuit</li>
+				          </Typography>
+				          <Typography variant="body2" color="textSecondary" component="p">
+				          Software used: C++, Python, Raspberry pi, and AWS web services
+				        </Typography>
+				        </CardContent>
+				      </Collapse>
+				    </Card>
+
+				    <Card className={classes.card}>
+				      <CardHeader
+				        action={
+				          <IconButton aria-label="settings">
+				            
+				          </IconButton>
+				        }
+				        title="Animal Classifier"
+				        subheader="July 2020"
+				      />
+				      <CardMedia
+				        className={classes.media}
+				        image={GoImageRecognition}
+				        title="GoImageRecognition"
+				      />
+				      <CardContent>
+				        <Typography variant="body2" color="textSecondary" component="p">
+				          GO ramp up project where I chose to create an animal classifier with Tensorflow 
+				        </Typography>
+				      </CardContent>
+				      <CardActions disableSpacing>
+				      <Button size="small" color="secondary" href="https://github.com/HaleyFogelson/GoImageRecognition">
+					         View Code
+					      </Button>
+				        <IconButton
+				          className={clsx(classes.expand9, {
+				            [classes.expandOpen9]: expanded9,
+				          })}
+				          onClick={handleExpandClick9}
+				          aria-expanded={expanded9}
+				          aria-label="show more"
+				        >
+				          Learn more <ExpandMoreIcon />
+				        </IconButton>
+				        
+				      </CardActions>
+				      <Collapse in={expanded9} timeout="auto" unmountOnExit>
+				        <CardContent>
+				          <Typography paragraph>About:</Typography>
+				          <Typography>
+				            <li> Created a GO program using TensorFlow to classify my co-workers' pets during my co-op at Xandr</li>
+				            <li>They let me pick anything I am passinate about so I picked AI and animals because I love both</li>
+				            <li>The ramp up project allowed me to get comfortable enough with GO and Docker to spend following 6 months after developing with it</li>
+				            <li> Program takes a picture or URL and gives the top 3 classifications that the image could be </li>
+				          </Typography>
+				        </CardContent>
+				      </Collapse>
+				    </Card>
+				     </div>
+					    <br/>
+
+
+
+
+
+
+
 					<div style={{display:'flex'}}>
 
 					<Card className={classes.card}>
@@ -454,66 +503,12 @@ export default function Projects() {
 				        </CardContent>
 				      </Collapse>
 				    </Card>
-
-
-
-
-
-
-						{/*<Card style={{ maxWidth: 345 }}>
-					      <CardActionArea>
-					        <CardMedia
-					          style={{ height: 400 }}
-					          image={SmartTrash}
-					          title="Contemplative Reptile"
-					        />
-					        <CardContent>
-					          <Typography gutterBottom variant="h5" component="h2">
-					            Lizard
-					          </Typography>
-					          <Typography variant="body2" color="textSecondary" component="p">
-					            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-					            across all continents except Antarctica
-					          </Typography>
-					        </CardContent>
-					      </CardActionArea>
-					      <CardActions>
-					        <Button size="small" color="primary">
-					          Share
-					        </Button>
-					        <Button size="small" color="primary">
-					          Learn More
-					        </Button>
-					      </CardActions>
-					    </Card>
-					    <Card style={{ maxWidth: 345 }}>
-					      <CardActionArea>
-					        <CardMedia
-					          style={{ height: 300 }}
-					          image={Spotr}
-					          title="Contemplative Reptile"
-					        />
-					        <CardContent>
-					          <Typography gutterBottom variant="h5" component="h2">
-					            Spotr
-					          </Typography>
-					          <Typography variant="body2" color="textSecondary" component="p">
-					            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-					            across all continents except Antarctica
-					          </Typography>
-					        </CardContent>
-					      </CardActionArea>
-					      <CardActions>
-					        <Button size="small" color="primary">
-					          Share
-					        </Button>
-					        <Button size="small" color="primary">
-					          Learn More
-					        </Button>
-					      </CardActions>
-					    </Card>*/}
-					    </div>
+				     </div>
 					    <br/>
+
+
+
+
 					  <div style={{display:'flex'}}>
 
 					<Card className={classes.card}>
@@ -559,6 +554,8 @@ export default function Projects() {
 				        </CardContent>
 				      </Collapse>
 				    </Card>
+
+
 				    <Card className={classes.card}>
 				      <CardHeader
 				        action={
@@ -569,6 +566,12 @@ export default function Projects() {
 				        title="Robotic Arm"
 				        subheader="December 2019"
 				      />
+
+
+
+
+
+
 				      <CardMedia
 				        className={classes.media}
 				        image={roboArm2}
@@ -672,146 +675,6 @@ export default function Projects() {
 
 
 				{/*hidden modals*/}
-				{/*<div id="gallery-card">
-					<div id="smartypill" className="modal-card">
-						<div className="visual">
-							<img crop="scale" height="100" src={Vmarine} alt=""/>
-						</div>
-						<div className="modal-info">
-							<h2>Smarty Pill</h2>
-							<div className="modal-description">
-								<ul>
-									<li>
-										Worked on a team in Generate to create a smart pill depensing device and
-										user interface for people to manage precriptions for our client who has gone
-										on to work on patenting the device
-									</li>
-									<li>
-										Device created using rasberry pi, website built using React and JavaScript
-										backend built using Heroku and flask
-									</li>
-								</ul>
-							</div>
-							<div className="modal-bottom">
-								<p
-									className="close-icon"
-									style={{
-										textAlign: "right",
-										fontWeight: 900,
-										fontSize: 2 + "rem",
-										cursor: "pointer"
-									}}
-									onClick={() => {
-										var modalBG = document.getElementById(
-											"gallery-card"
-										);
-										var marineModal = document.getElementById(
-											"smartypill"
-										);
-										modalBG.style.display = "none";
-										marineModal.style.display = "none";
-									}}>
-									&#10005;
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div id="attendance" className="modal-card">
-						<div className="visual">
-							<img height="100" src={aguaDeLuz} alt=""/>
-						</div>
-						<div className="modal-info">
-							<h2>A+tandance</h2>
-							<div className="modal-description">
-								<ul>
-									<li>
-										Pocket sized bluetooth RFID scanner with an App that uses the non-encrpyed part
-										of any card with a strip and maps it to a user to take attendance
-									</li>
-									<li>
-										Developed with ReactNative, CSS, Bootstrap,
-										Webpack, Parallax Effect,
-										SmoothScrolling(UI), and VanillaJS.
-									</li>
-								</ul>
-							</div>
-							<div className="modal-bottom">
-								{/*<a
-									href="./AguaDeLuz/index.html"
-									target="_blank">
-									<h3>View live demo</h3>
-								</a>
-								<p
-									className="close-icon"
-									style={{
-										textAlign: "right",
-										fontWeight: 900,
-										fontSize: 2 + "rem",
-										cursor: "pointer"
-									}}
-									onClick={() => {
-										var modalBG = document.getElementById(
-											"gallery-card"
-										);
-										var aguaModal = document.getElementById(
-											"attendance"
-										);
-										modalBG.style.display = "none";
-										aguaModal.style.display = "none";
-									}}>
-									&#10005;
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div id="todolist" className="modal-card">
-						<div className="visual">
-							<img  src={SmartTrash} alt=""/>
-						</div>
-						<div className="modal-info">
-							<div className="modal-description">
-								<ul>
-									<li>
-										A self-sorting trash and recycling can
-									</li>
-									<li>
-									Worked on a team to create a trash can that used TensorFlow for machine learning to determine if an item is trash or recycling which then had the raspberry pi control a servo motor to place the item in the corresponding bin 
-									</li>
-									{/*<li>
-										Developed with TensorFlow, python, c++ 
-									</li>
-								</ul>
-							</div>
-							<div className="modal-bottom">
-								<a href="https://github.com/HaleyFogelson/Smart-Trash-can" target="_blank">
-									<h5>Github code</h5>
-								</a>
-								<p
-									className="close-icon"
-									style={{
-										textAlign: "right",
-										fontWeight: 800,
-										fontSize: 1 + "rem",
-										cursor: "pointer"
-									}}
-									onClick={() => {
-										var modalBG = document.getElementById(
-											"gallery-card"
-										);
-										var todoModal = document.getElementById(
-											"todolist"
-										);
-										modalBG.style.display = "none";
-										todoModal.style.display = "none";
-									}}>
-									&#10005;
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>*/}
 			</React.Fragment>
 		);
 	
