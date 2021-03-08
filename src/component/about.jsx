@@ -59,8 +59,8 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I am currently a third-year Computer Engineering and Computer Science major at 
-							Northeastern University. I enjoy coding and have a passion for robotics and programming. 
+							I am currently a third-year Computer Engineering and Computer Science major with a Minor in Entrepreneurial Startups
+							at Northeastern University. I enjoy coding and have a passion for robotics and programming. 
 							I can often be found working on an array of technical projects. I have created 
 							 websites, apps, prototypes for startup ideas, databases, robots, boats, and more. 
 							 I love being able to use creativity and innovation to transform ideas into physical products. 
@@ -69,7 +69,8 @@ export default class About extends React.Component {
 							 what drives me to study Computer Engineering and Computer Science. 
 
 							At Northeastern I am a part of an array of organizations and clubs and enjoy being actively involved on campus.  
-							Outside of coding, I enjoy traveling, running, playing instruments, and hammocking.	
+							Outside of coding, I enjoy wakesurfing, getting lost (finding new places I would have never seen), traveling, running, meditation,
+							playing instruments, and hammocking.	
 						</p>
 					</div>
 					<div
@@ -104,7 +105,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								C++
@@ -114,7 +115,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-90-bar"
 								role="progressbar"
-								style={{ width: 40 + "%" }}
+								style={{ width: 75 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Python
@@ -122,12 +123,12 @@ export default class About extends React.Component {
 						</div>
 						<div className="progress mb-3">
 							<div
-								className="progress-bar fill-90-bar"
+								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
+								style={{ width: 85 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								Creating Websites
+								Git
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -137,7 +138,17 @@ export default class About extends React.Component {
 								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								HTML
+								SQL
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 40 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Docker
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -184,16 +195,6 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 75 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Git
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
 								style={{ width: 20 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
@@ -214,7 +215,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
+								style={{ width: 40 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Solid Works
@@ -224,10 +225,10 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 50 + "%" }}
+								style={{ width: 40 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								SQL Databases
+								AWS webservices
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -244,7 +245,17 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 50 + "%" }}
+								style={{ width: 20 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Jenkins
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 40 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="50">
 								Matlab

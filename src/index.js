@@ -4,8 +4,8 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 //adding my imports
-import Navbar from "./component/Navbar.jsx";
-import Footer from "./component/Footer.jsx";
+import Navbar from "./component/navbar.jsx";
+import Footer from "./component/footer.jsx";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./styles/index.scss";
 
