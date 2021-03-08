@@ -61,7 +61,7 @@ export default class Background extends React.Component {
 								this.props.aboutRef.current.props.id
 							);
 							window.scrollTo({
-								top: 2500,
+								top: 3500,
 								behavior: "smooth"
 							});
 						}}>
