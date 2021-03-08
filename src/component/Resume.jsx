@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 
 export default class Resume extends React.Component {
-
 	render() {
 		return (
 		<div id="my-resume" className="container text-center my-5">
@@ -12,7 +11,7 @@ export default class Resume extends React.Component {
 		<h3 style={{ color: 'blue' }}> Education </h3>
 		
 		<h6> <h5> Northeastern Univerisity</h5> Boston, MA <br/> 
-		Bachelor of Science in Computer Engineering and Computer Science with Minor in Entrepreneurial Startups, GPA: 3.88  <br/>
+		Bachelor of Science in Computer Engineering and Computer Science with Minor in Entrepreneurial Startups,  GPA: 3.85 <br/>
 		Dean’s List: Fall 2018-present  <br/> <br/>
 		<div style={{ display:'flex'}}>
 		<h5>Courses:</h5>      Artificial Intelligence, Object Oriented Design, Computer Systems, Digital Design, Fund. of Computer Science 2, Calculus 2, Chemistry 2,  Physics 2,
@@ -39,11 +38,11 @@ export default class Resume extends React.Component {
 		<br/><br/> 
 		<h3 style={{ color: 'blue' }}> Work Experience </h3>
 		<h5> CLYPD and Xandr </h5> Boston, MA <br/> July-December 2020 <br/> Software Engineering CO-OP <br/>
-		<li>Worked on a development team for Clypd which was aquired by Xandr while I worked there </li>
-		<li>Fully integrated into a team of engineers and made signifigent contributions to the code base</li> 
-		<li>Led an Epic to create useful tools for the company</li> 
-		<li>Did sprint planning in Jira</li>
-		<li>Learned the language Go</li>
+		<li>Created features using Go, Python, SQL, and AWS on platform that creates ad placements for advanced targets on linear television</li>
+		<li>Integrated Xandr data in platform and taught Xandr employees how Clypd’s platform works during company merger</li>
+		<li>Led an Epic to create useful debugging tools for the company</li>
+		<li>Planned sprints for software team using Jira while shadowing agile coach</li>
+		<li>Optimized code by doing code review on pull requests and testing deployment with Docker on Jenkins’ sandboxes</li>
 		<li>Learned about how to make teams efficient and how a company runs well by meeting with executives</li>
 		<br/><br/>
 		<h5> AT&T Cyber Security </h5> Columbia, MD <br/> May-August 2019 <br/> Goverment solutions Intern <br/>
@@ -55,7 +54,7 @@ export default class Resume extends React.Component {
 		<li>Created an intern guide and curriculum for future interns in the Cyber Patriots Branch</li>
 		<br/><br/>
 		<h5> McDonogh School </h5>
-		Owings Mills, MD<br/> May-August 2019<br/> <br/>
+		Owings Mills, MD<br/> May-August 2019<br/>
 		Software Intern <br/>
 		<li> Worked with Javascript, SQL, ColdFusion, HTML, CSS, and Git to update the school's website and databases</li>
 		<br/><br/>
