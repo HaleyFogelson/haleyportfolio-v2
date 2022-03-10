@@ -29,8 +29,8 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I am currently a third-year Computer Engineering and Computer Science major with a Minor in Entrepreneurial Startups
-							at Northeastern University. I enjoy coding and have a passion for robotics and programming. 
+							I am currently a foruth-year Computer Engineering and Computer Science major with a Minor in Entrepreneurial Startups
+							at Northeastern University graduating December 2022. I enjoy coding and have a passion for robotics and programming. 
 							I can often be found working on an array of technical projects. I have created 
 							 websites, apps, prototypes for startup ideas, databases, robots, boats, and more. 
 							 I love being able to use creativity and innovation to transform ideas into physical products. 
