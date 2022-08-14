@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 
 export default class Resume extends React.Component {
-
 	render() {
 		return (
 		<div id="my-resume" className="container text-center my-5">

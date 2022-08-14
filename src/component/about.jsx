@@ -5,7 +5,6 @@ import pen from "../img/pen.png";
 import browser from "../img/browser.png";
 import myImage from "../img/myImage.png";
 import PropTypes from "prop-types";
-
 export default class About extends React.Component {
 	render(){
 		return (
@@ -15,36 +14,7 @@ export default class About extends React.Component {
 				<h1 id="about" className={this.props.bounceLeft}>
 					About
 				</h1>
-				{/*<div className="row mt-5">
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						<img src={layers} alt=""/>
-						<h4>Responsive</h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						<img src={pen} alt=""/>
-						<h4>Design</h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<img src={cogwheel} alt=""/>
-						<h4>Performance</h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<img src={browser} alt=""/>
-						<h4>Agile</h4>
-					</div>
-				</div>*/}
+
 
 				<div className="row" style={{ marginTop: 7 + "rem" }}>
 					<div className="col-12 col-lg-6 hidden">
@@ -59,8 +29,10 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I am currently a third-year Computer Engineering and Computer Science major with a Minor in Entrepreneurial Startups
-							at Northeastern University. I enjoy coding and have a passion for robotics and programming. 
+            
+							I am currently a fifth-year Computer Engineering and Computer Science major with a Minor in Entrepreneurial Startups
+							at Northeastern University graduating December 2022. I enjoy coding and have a passion for robotics and programming. 
+
 							I can often be found working on an array of technical projects. I have created 
 							 websites, apps, prototypes for startup ideas, databases, robots, boats, and more. 
 							 I love being able to use creativity and innovation to transform ideas into physical products. 
