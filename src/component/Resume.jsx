@@ -19,7 +19,7 @@ export default class Resume extends React.Component {
 	</div>
 	<br/> <br/>
 	<div style={{ display:'flex'}}>
-	<h5>Activities:</h5>   Generate (Build Studio Engineer & Website Lead), Hillel (Learning Chair & Community Engagement Intern), Delta Phi Epsilon(Panhel Delegate), SWE,    
+	<h5>Activities:</h5>   Generate (Build Studio Engineer, Chief Computer Engineer, & Project Lead), Hillel (Learning Chair & Community Engagement Intern), Delta Phi Epsilon(Panhel Delegate), SWE,    
                     IEEE, NUHOC, CHAARG and Club running
      </div>
 		<br/><br/>
@@ -37,6 +37,10 @@ export default class Resume extends React.Component {
 					</button>
 		<br/><br/> 
 		<h3 style={{ color: 'blue' }}> Work Experience </h3>
+		<h5> Amazon Robotics </h5> North Reading, MA <br/> July-December 2021 <br/> Firmware Engineering CO-OP <br/>
+		<li>Worked on the safety mechanisms for the Robots in the Warehouses </li>
+		<li>Created tests in python and C++ to run on the hardware </li>
+		<li>Researched and documented how to use Amazon's other software on the microchips of a device </li> <br/><br/>
 		<h5> CLYPD and Xandr </h5> Boston, MA <br/> July-December 2020 <br/> Software Engineering CO-OP <br/>
 		<li>Created features using Go, Python, SQL, and AWS on platform that creates ad placements for advanced targets on linear television</li>
 		<li>Integrated Xandr data in platform and taught Xandr employees how Clypd’s platform works during company merger</li>
